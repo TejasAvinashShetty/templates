@@ -42,6 +42,10 @@ from scipy.optimize import minimize
 from matplotlib.pyplot import plot, figure, show, savefig
 from matplotlib.pyplot import xlabel, ylabel, title, legend
 from matplolib import rcParams
+pgf_with_rc_fonts = {"pgf.texsystem": "pdflatex"}
+rcParams.update(pgf_with_rc_fonts)
+
+
 
 
 # ## Math imports
